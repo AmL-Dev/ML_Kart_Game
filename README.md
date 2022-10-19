@@ -1,10 +1,14 @@
 # Reinforcement Learning Kart Game
 
-The goal of this project is to teach an agent how to drive a go-kart on its own on any track using reinforcement learning.
+The goal of this project is to teach an agent how to drive a go-kart on its own, on any track, using reinforcement learning.
 
 <p align="center">
   <img src="images/ml_kart.png" alt="Trained agent on the racing track." />
 </p>
+
+## Description
+
+This project trained a virtual agent how to drive a go-kart on (almost) any racing tracks. The driver can either accelerate, break, or turn. It knows its surrounding through ray casts. The agent was first trained on a simple loop track. The trained brain was then used as a starting point for another training session on a more challenging track. To help the training, the tracks are covered with check points. In the end, the agent succeeded in driving an entire loop on an unknown challenging track.
 
 ## Built With
 
